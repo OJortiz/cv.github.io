@@ -8,7 +8,7 @@
 }
 body
 {
-    background: lightblue;
+    background: rgb(192, 240, 137);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +29,10 @@ body
 .container .left_Side
 {
     position: relative;
-    background: #003147;
+    background: #024903;
     padding: 40px;
 }
-.profileText
-{
+.profileText {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -41,23 +40,24 @@ body
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
-.profileText .imgBx
-{
+
+.profileText .imgBx {
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
+    display: flex; /* Agregar */
+    justify-content: center; /* Agregar */
+    align-items: center; /* Agregar */
 }
-.profileText .imgBx pikachuTristeXD
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
+.profileText .imgBx img { /* Cambiar de .profileText .imgBx AvatarOscarOrtiz a .profileText .imgBx img */
+    width: 100%; /* Cambiar de 250% a 100% */
+    height: 100%; /* Cambiar de 250% a 100% */
     object-fit: cover;
 }
+
 .profileText h2
 {
 color: #fff;
@@ -101,7 +101,7 @@ line-height: 1.4em;
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #03a9f4;
+    color: #03f453;
 }
 .contactInfo ul li span
 {
@@ -114,7 +114,7 @@ line-height: 1.4em;
 }
 .contactInfo.education h5
 {
-    color: #03a9f4;
+    color: #03f453;
     font-weight: 500;
 }
 .contactInfo.education h4:nth-child(2)
@@ -142,7 +142,7 @@ line-height: 1.4em;
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: #03f453;
 }
 .container .right_Side
 {
@@ -160,7 +160,7 @@ line-height: 1.4em;
 }
 .title2
 {
-    color: #003147;
+    color: #024903;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -188,7 +188,7 @@ color: #333;
 .about .box .text h4
 {
     text-transform: uppercase;
-    color: #2a7da2;
+    color: #024903;
     font-size: 16px;
 }
 .skills .box
@@ -219,7 +219,7 @@ color: #333;
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: #03f453;
 }
 .interest u1
 {
@@ -235,7 +235,7 @@ color: #333;
 }
 .interest u1 li .fa
 {
-    color: #03a9f4;
+    color: #03f453;
     font-size: 18px;
     width: 20px;
 }
